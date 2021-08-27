@@ -4,9 +4,22 @@ import Button from '../BulletPoints/Button';
 import cropimage from '../../images/cropimage.PNG';
 
 export default function ForFarmer() {
+
+    const check = () => {
+        console.log('here');
+        //return false;
+    };
+
+    const lol = (e) => {
+        console.log(e);
+        const formData = new FormData(e.target);
+        console.log(formData);
+        e.preventDefault();
+    }
+
     return (
         <SignUpForm>
-            <Form>
+            <Form onSubmit={lol} after>
                 <Label> First name:
                 </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <Input
