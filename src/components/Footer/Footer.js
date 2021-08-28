@@ -8,7 +8,7 @@ export default function Footer() {
         <FooterMenu>
         <Footermain>
             <Contact>
-                <ListItems> <FaPhoneAlt />+91 6309-63010 </ListItems>
+                <ListItems> <FaPhoneAlt />+91 6309-630104 </ListItems>
                 <ListItems> <HiOutlineMail/>  Info@root-enroute.com </ListItems>
             </Contact><br/>
             <Contact>
