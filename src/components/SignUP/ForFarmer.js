@@ -1,50 +1,57 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components';
 import Button from '../BulletPoints/Button';
 import cropimage from '../../images/cropimage.PNG';
+import styles from './ForFarmer.css';
+
 
 export default function ForFarmer() {
+    
     return (
-        <SignUpForm>
-            <Form>
-                <Label> First name:
-                </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Input
-                        type="text"
-                        name="FirstName"
-                        // value={FirstName}
-                        // onChange={handleChange}
-                        required /><br />
-                <Label> Last name:
-                </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <Input
-                        type="text"
-                        name="lastName"
-                        // value={LastName}
-                        // onChange={handleChange}
-                        required /><br />
-                 <Label> Email:
-                </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Input
-                        type="text"
-                        name="email"
-                        // value={email}
-                        // onChange={handleChange}
-                        required /><br />
-                <Label> Mobile Number:</Label>
-                    <Input
-                        type="tel"
-                        name="mobilenumber"
-                        // value={mobilenumber}
-                        // onChange={handleChange}
-                    required
-                /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Button buttonName="SignUp" type="submit"></Button>
-            </Form>
-        </SignUpForm>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxbrqSq00WSPjId24GXOoEAWsd06qyH2Dr89Z68zMjdPw4qw/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        
+        // <SignUpForm>
+        //     <form onSubmit={lol} after>
+        //         <Label> First name:
+        //         </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         <Input
+        //                 type="text"
+        //                 name="FirstName"
+        //                 // value={FirstName}
+        //                 // onChange={handleChange}
+        //                  /><br />
+        //         <Label> Last name:
+        //         </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //          <Input
+        //                 type="text"
+        //                 name="lastName"
+        //                 // value={LastName}
+        //                 // onChange={handleChange}
+        //                  /><br />
+        //          <Label> Email:
+        //         </Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         <Input
+        //                 type="text"
+        //                 name="email"
+        //                 // value={email}
+        //                 // onChange={handleChange}
+        //                  /><br />
+        //         <Label> Mobile Number:</Label>
+        //             <Input
+        //                 type="tel"
+        //                 name="mobilenumber"
+        //                 // value={mobilenumber}
+        //                 // onChange={handleChange}
+                    
+        //         /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        //         <Button buttonName="SignUp" type="submit"></Button>
+        //     </form>
+        // </SignUpForm>
     )
 }
 
