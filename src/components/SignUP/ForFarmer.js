@@ -8,9 +8,9 @@ import styles from './ForFarmer.css';
 export default function ForFarmer() {
     
     return (
-        <div style={{display: 'flex', justifyContent: 'center'}}>
+        <SignUpForm>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxbrqSq00WSPjId24GXOoEAWsd06qyH2Dr89Z68zMjdPw4qw/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+        </SignUpForm>
         
         // <SignUpForm>
         //     <form onSubmit={lol} after>
@@ -57,10 +57,12 @@ export default function ForFarmer() {
 
 
 const SignUpForm = styled.div`
-background: linear-gradient(rgba(195, 240, 217,0.7), rgba(195, 240, 217,0.7)),url(${cropimage}) no-repeat center center ;
- background-size: cover;
+  background: linear-gradient(rgba(195, 240, 217,0.7), rgba(195, 240, 217,0.7)),url(${cropimage}) no-repeat center center ;
+  background-size: cover;
   height: 100%;
   overflow: hidden;
+  display:flex;
+  justify-content: center;
 @media screen and (max-width: 768px){
         heignt:100%;
         width:100%;
